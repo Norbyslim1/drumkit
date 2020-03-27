@@ -1,0 +1,25 @@
+body{
+    background-image: url(../images/djbackground.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+#base{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 25%;         
+}
+.key{
+    color: white;
+    border: 1.5px solid grey;
+    transform: scale(1);
+
+}
+.playing{
+    border: 1.5px solid yellow;
+    transform: scale(1.2);
+    transition: all 0.5s;
+}
+
+
